@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PortalGame",
+			"Path": "..\\Source\\PortalGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PortalGameEditor",
+			"Path": "..\\Source\\PortalGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
