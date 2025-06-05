@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\jumpportalinterface.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
+            "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\jumpportalinterface.h",
+            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\jumpportalinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
