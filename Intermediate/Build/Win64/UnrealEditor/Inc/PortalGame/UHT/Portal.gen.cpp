@@ -6,187 +6,21 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "PortalGame/Portal.h"
-#include "Runtime/Engine/Classes/Engine/HitResult.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePortal() {}
 
 // Begin Cross Module References
 COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
-ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
-ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USceneCaptureComponent2D_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 PORTALGAME_API UClass* Z_Construct_UClass_APortal();
 PORTALGAME_API UClass* Z_Construct_UClass_APortal_NoRegister();
 UPackage* Z_Construct_UPackage__Script_PortalGame();
 // End Cross Module References
-
-// Begin Class APortal Function BeginOverlap1
-struct Z_Construct_UFunction_APortal_BeginOverlap1_Statics
-{
-	struct Portal_eventBeginOverlap1_Parms
-	{
-		UPrimitiveComponent* OverlappedComponent;
-		AActor* OtherActor;
-		UPrimitiveComponent* OtherComp;
-		int32 OtherBodyIndex;
-		bool bFromSweep;
-		FHitResult SweepResult;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Portal.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OverlappedComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SweepResult_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OverlappedComponent;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
-	static void NewProp_bFromSweep_SetBit(void* Obj);
-	static const UECodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_SweepResult;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OverlappedComponent = { "OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap1_Parms, OverlappedComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OverlappedComponent_MetaData), NewProp_OverlappedComponent_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap1_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap1_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OtherComp_MetaData), NewProp_OtherComp_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap1_Parms, OtherBodyIndex), METADATA_PARAMS(0, nullptr) };
-void Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_bFromSweep_SetBit(void* Obj)
-{
-	((Portal_eventBeginOverlap1_Parms*)Obj)->bFromSweep = 1;
-}
-const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(Portal_eventBeginOverlap1_Parms), &Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap1_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 4100991306
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APortal_BeginOverlap1_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OverlappedComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OtherActor,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OtherComp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_OtherBodyIndex,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_bFromSweep,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap1_Statics::NewProp_SweepResult,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_BeginOverlap1_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_BeginOverlap1_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "BeginOverlap1", nullptr, nullptr, Z_Construct_UFunction_APortal_BeginOverlap1_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_BeginOverlap1_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_BeginOverlap1_Statics::Portal_eventBeginOverlap1_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_BeginOverlap1_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_BeginOverlap1_Statics::Function_MetaDataParams) };
-static_assert(sizeof(Z_Construct_UFunction_APortal_BeginOverlap1_Statics::Portal_eventBeginOverlap1_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_APortal_BeginOverlap1()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APortal_BeginOverlap1_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(APortal::execBeginOverlap1)
-{
-	P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
-	P_GET_OBJECT(AActor,Z_Param_OtherActor);
-	P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
-	P_GET_PROPERTY(FIntProperty,Z_Param_OtherBodyIndex);
-	P_GET_UBOOL(Z_Param_bFromSweep);
-	P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->BeginOverlap1(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
-	P_NATIVE_END;
-}
-// End Class APortal Function BeginOverlap1
-
-// Begin Class APortal Function BeginOverlap2
-struct Z_Construct_UFunction_APortal_BeginOverlap2_Statics
-{
-	struct Portal_eventBeginOverlap2_Parms
-	{
-		UPrimitiveComponent* OverlappedComponent;
-		AActor* OtherActor;
-		UPrimitiveComponent* OtherComp;
-		int32 OtherBodyIndex;
-		bool bFromSweep;
-		FHitResult SweepResult;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Portal.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OverlappedComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SweepResult_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OverlappedComponent;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
-	static void NewProp_bFromSweep_SetBit(void* Obj);
-	static const UECodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_SweepResult;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OverlappedComponent = { "OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap2_Parms, OverlappedComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OverlappedComponent_MetaData), NewProp_OverlappedComponent_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap2_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap2_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OtherComp_MetaData), NewProp_OtherComp_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap2_Parms, OtherBodyIndex), METADATA_PARAMS(0, nullptr) };
-void Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_bFromSweep_SetBit(void* Obj)
-{
-	((Portal_eventBeginOverlap2_Parms*)Obj)->bFromSweep = 1;
-}
-const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(Portal_eventBeginOverlap2_Parms), &Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventBeginOverlap2_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 4100991306
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APortal_BeginOverlap2_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OverlappedComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OtherActor,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OtherComp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_OtherBodyIndex,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_bFromSweep,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_BeginOverlap2_Statics::NewProp_SweepResult,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_BeginOverlap2_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_BeginOverlap2_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "BeginOverlap2", nullptr, nullptr, Z_Construct_UFunction_APortal_BeginOverlap2_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_BeginOverlap2_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_BeginOverlap2_Statics::Portal_eventBeginOverlap2_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_BeginOverlap2_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_BeginOverlap2_Statics::Function_MetaDataParams) };
-static_assert(sizeof(Z_Construct_UFunction_APortal_BeginOverlap2_Statics::Portal_eventBeginOverlap2_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_APortal_BeginOverlap2()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APortal_BeginOverlap2_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(APortal::execBeginOverlap2)
-{
-	P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
-	P_GET_OBJECT(AActor,Z_Param_OtherActor);
-	P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
-	P_GET_PROPERTY(FIntProperty,Z_Param_OtherBodyIndex);
-	P_GET_UBOOL(Z_Param_bFromSweep);
-	P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->BeginOverlap2(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
-	P_NATIVE_END;
-}
-// End Class APortal Function BeginOverlap2
 
 // Begin Class APortal Function ClearExitCollider
 struct Z_Construct_UFunction_APortal_ClearExitCollider_Statics
@@ -229,87 +63,6 @@ DEFINE_FUNCTION(APortal::execClearExitCollider)
 	P_NATIVE_END;
 }
 // End Class APortal Function ClearExitCollider
-
-// Begin Class APortal Function EndOverlap
-struct Z_Construct_UFunction_APortal_EndOverlap_Statics
-{
-	struct Portal_eventEndOverlap_Parms
-	{
-		UPrimitiveComponent* OverlappedComponent;
-		AActor* OtherActor;
-		UPrimitiveComponent* OtherComp;
-		int32 OtherBodyIndex;
-		bool bFromSweep;
-		FHitResult SweepResult;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Portal.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OverlappedComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SweepResult_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OverlappedComponent;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
-	static void NewProp_bFromSweep_SetBit(void* Obj);
-	static const UECodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_SweepResult;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OverlappedComponent = { "OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventEndOverlap_Parms, OverlappedComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OverlappedComponent_MetaData), NewProp_OverlappedComponent_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventEndOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventEndOverlap_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OtherComp_MetaData), NewProp_OtherComp_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventEndOverlap_Parms, OtherBodyIndex), METADATA_PARAMS(0, nullptr) };
-void Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_bFromSweep_SetBit(void* Obj)
-{
-	((Portal_eventEndOverlap_Parms*)Obj)->bFromSweep = 1;
-}
-const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(Portal_eventEndOverlap_Parms), &Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventEndOverlap_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 4100991306
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APortal_EndOverlap_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OverlappedComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OtherActor,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OtherComp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_OtherBodyIndex,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_bFromSweep,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_EndOverlap_Statics::NewProp_SweepResult,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_EndOverlap_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_EndOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "EndOverlap", nullptr, nullptr, Z_Construct_UFunction_APortal_EndOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_EndOverlap_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_EndOverlap_Statics::Portal_eventEndOverlap_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_EndOverlap_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_EndOverlap_Statics::Function_MetaDataParams) };
-static_assert(sizeof(Z_Construct_UFunction_APortal_EndOverlap_Statics::Portal_eventEndOverlap_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_APortal_EndOverlap()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APortal_EndOverlap_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(APortal::execEndOverlap)
-{
-	P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
-	P_GET_OBJECT(AActor,Z_Param_OtherActor);
-	P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
-	P_GET_PROPERTY(FIntProperty,Z_Param_OtherBodyIndex);
-	P_GET_UBOOL(Z_Param_bFromSweep);
-	P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->EndOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
-	P_NATIVE_END;
-}
-// End Class APortal Function EndOverlap
 
 // Begin Class APortal Function GetCamRoot1Comp
 struct Portal_eventGetCamRoot1Comp_Parms
@@ -1438,10 +1191,7 @@ void APortal::StaticRegisterNativesAPortal()
 {
 	UClass* Class = APortal::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
-		{ "BeginOverlap1", &APortal::execBeginOverlap1 },
-		{ "BeginOverlap2", &APortal::execBeginOverlap2 },
 		{ "ClearExitCollider", &APortal::execClearExitCollider },
-		{ "EndOverlap", &APortal::execEndOverlap },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -1460,10 +1210,7 @@ struct Z_Construct_UClass_APortal_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_APortal_BeginOverlap1, "BeginOverlap1" }, // 3282771295
-		{ &Z_Construct_UFunction_APortal_BeginOverlap2, "BeginOverlap2" }, // 1893465202
 		{ &Z_Construct_UFunction_APortal_ClearExitCollider, "ClearExitCollider" }, // 2080639422
-		{ &Z_Construct_UFunction_APortal_EndOverlap, "EndOverlap" }, // 2820708658
 		{ &Z_Construct_UFunction_APortal_GetCamRoot1Comp, "GetCamRoot1Comp" }, // 903769867
 		{ &Z_Construct_UFunction_APortal_GetCamRoot2Comp, "GetCamRoot2Comp" }, // 1844472476
 		{ &Z_Construct_UFunction_APortal_GetCol1Comp, "GetCol1Comp" }, // 2507132699
@@ -1530,14 +1277,14 @@ APortal::~APortal() {}
 // End Class APortal
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Portal_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APortal, APortal::StaticClass, TEXT("APortal"), &Z_Registration_Info_UClass_APortal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APortal), 23725083U) },
+		{ Z_Construct_UClass_APortal, APortal::StaticClass, TEXT("APortal"), &Z_Registration_Info_UClass_APortal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APortal), 700458057U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Portal_h_1936640271(TEXT("/Script/PortalGame"),
-	Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Portal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Portal_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_2270051341(TEXT("/Script/PortalGame"),
+	Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

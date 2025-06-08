@@ -15,25 +15,25 @@ APortal::APortal()
 
 }
 
-void APortal::BeginOverlap1(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	FVector TargetPoint = GetTargetPoint(SweepResult, TP2, TP1);
-	JumpPortalM(OtherActor, Col1, P1Capture, OverlappedComponent, TargetPoint);
-}
-
-void APortal::BeginOverlap2(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	FVector TargetPoint = GetTargetPoint(SweepResult, TP1, TP2);
-	JumpPortalM(OtherActor, Col2, P2Capture, OverlappedComponent, TargetPoint);
-}
-
-void APortal::EndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	if (OverlappedComponent == ExitCollider)
-	{
-		ExitCollider = nullptr;
-	}
-}
+//void APortal::BeginOverlap1(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+//{
+//	FVector TargetPoint = GetTargetPoint(SweepResult, TP2, TP1);
+//	//JumpPortalM(OtherActor, Col1, P1Capture, OverlappedComponent, TargetPoint);
+//}
+//
+//void APortal::BeginOverlap2(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+//{
+//	FVector TargetPoint = GetTargetPoint(SweepResult, TP1, TP2);
+//	//JumpPortalM(OtherActor, Col2, P2Capture, OverlappedComponent, TargetPoint);
+//}
+//
+//void APortal::EndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+//{
+//	if (OverlappedComponent == ExitCollider)
+//	{
+//		ExitCollider = nullptr;
+//	}
+//}
 
 // Called when the game starts or when spawned
 void APortal::BeginPlay()
@@ -76,8 +76,6 @@ void APortal::BeginPlay()
 void APortal::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-
 }
 
 void APortal::ClearExitCollider(UObject* Object)
@@ -98,25 +96,46 @@ void APortal::ClearExitCollider(UObject* Object)
 //	DummyPortal->SetWorldLocationAndRotation(Location, Rotation);
 //}
 
-void APortal::JumpPortalM(UObject* Jumper, UBoxComponent* ExitColliderR, USceneComponent* TargetCapture, UObject* TriggerCollider, FVector TargetPoint)
-{
-	if (TriggerCollider != ExitCollider)
-	{
-		ExitCollider = ExitColliderR;
-		FRotator Rotation = TargetCapture->GetComponentRotation();
-		APlayerCharacter::Execute_JumpPortal(Jumper, TargetPoint, Rotation);
-	}
-}
+//void APortal::JumpPortalM(UObject* Jumper, UBoxComponent* ExitColliderR, USceneComponent* TargetCapture, UObject* TriggerCollider, FVector TargetPoint)
+//{
+//	if (TriggerCollider != ExitCollider)
+//	{
+//		ExitCollider = ExitColliderR;
+//		FRotator Rotation = TargetCapture->GetComponentRotation();
+//		APlayerCharacter::Execute_JumpPortal(Jumper, TargetPoint, Rotation);
+//	}
+//}
+//
+//FVector APortal::GetTargetPoint(FHitResult HitResult, USceneComponent* Enter, USceneComponent* Exit)
+//{
+//	FVector IP = HitResult.ImpactPoint;
+//	Enter->SetWorldLocation(IP);
+//	FVector RL = Enter->GetRelativeLocation();
+//	FVector NewLocation = GetActorForwardVector() + RL;
+//	Exit->SetRelativeLocation(NewLocation);
+//	FVector WL = Exit->GetComponentLocation();
+//	return WL;
+//}
 
-FVector APortal::GetTargetPoint(FHitResult HitResult, USceneComponent* Enter, USceneComponent* Exit)
-{
-	FVector IP = HitResult.ImpactPoint;
-	Enter->SetWorldLocation(IP);
-	FVector RL = Enter->GetRelativeLocation();
-	FVector NewLocation = GetActorForwardVector() + RL;
-	Exit->SetRelativeLocation(NewLocation);
-	FVector WL = Exit->GetComponentLocation();
-	return WL;
-}
+//void APortal::UpdateCameras()
+//{
+//	FVector NewLocation = GetActorLocation();
+//	PSim_D1->SetWorldLocation(NewLocation);
+//	PSim_D2->SetWorldLocation(NewLocation);
+//	UpdateCaptureM(P1Capture, PSim_D2);
+//	UpdateCaptureM(P2Capture, PSim_D1);
+//}
+//
+//void APortal::UpdateCaptureM(USceneCaptureComponent2D* Capture, USceneComponent* Psim)
+//{
+//	Capture->SetRelativeLocation(Psim->GetRelativeLocation());
+//	FVector Start = Capture->GetComponentLocation();
+//	FVector Target = Capture->GetAttachParent()->GetComponentLocation();
+//	FRotator NewRotation = UKismetMathLibrary::FindLookAtRotation(Start, Target);
+//	Capture->SetWorldRotation(NewRotation);
+//	double VectorLength = Capture->GetRelativeLocation().Length();
+//	double FOV = UKismetMathLibrary::Clamp(UKismetMathLibrary::Atan(UKismetMathLibrary::Divide_DoubleDouble(200, UKismetMathLibrary::Max(VectorLength, 1))), 5, 100);
+//	Capture->FOVAngle = FOV;
+//}
 
 

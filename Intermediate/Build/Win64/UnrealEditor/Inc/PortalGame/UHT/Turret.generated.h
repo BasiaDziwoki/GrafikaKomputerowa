@@ -18,14 +18,14 @@ class UTimelineComponent;
 #endif
 #define PORTALGAME_Turret_generated_h
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execChangeLaserBeginLocation); \
 	DECLARE_FUNCTION(execChangeLaserEndingLocation); \
 	DECLARE_FUNCTION(execAnyDamage);
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_CALLBACK_WRAPPERS
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_CALLBACK_WRAPPERS
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATurret(); \
 	friend struct Z_Construct_UClass_ATurret_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ATurret)
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ATurret(ATurret&&); \
@@ -46,14 +46,14 @@ public: \
 	NO_API virtual ~ATurret();
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_14_PROLOG
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_GENERATED_BODY \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_14_PROLOG
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_CALLBACK_WRAPPERS \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_CALLBACK_WRAPPERS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,7 +61,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PORTALGAME_API UClass* StaticClass<class ATurret>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_Turret_h
+#define CURRENT_FILE_ID FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Turret_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

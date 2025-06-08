@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\playercharacter.gen.cpp",
+        "Source": "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\playercharacter.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\playercharacter.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\source\\portalgame\\playercharacter.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -83,9 +83,9 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\userwidget.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\panelwidget.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\canvaspanel.generated.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\jumpportalinterface.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\jumpportalinterface.generated.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\playercharacter.generated.h"
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\source\\portalgame\\jumpportalinterface.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\jumpportalinterface.generated.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\playercharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
