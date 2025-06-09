@@ -11,7 +11,6 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UArrowComponent;
 class UBoxComponent;
-class UObject;
 class USceneCaptureComponent2D;
 class USceneComponent;
 class UStaticMeshComponent;
@@ -19,10 +18,6 @@ class UStaticMeshComponent;
 #error "Portal.generated.h already included, missing '#pragma once' in Portal.h"
 #endif
 #define PORTALGAME_Portal_generated_h
-
-#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execClearExitCollider);
-
 
 #define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_CALLBACK_WRAPPERS
 #define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_INCLASS_NO_PURE_DECLS \
@@ -50,7 +45,6 @@ public: \
 #define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_CALLBACK_WRAPPERS \
 	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_INCLASS_NO_PURE_DECLS \
 	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_Portal_h_16_ENHANCED_CONSTRUCTORS \

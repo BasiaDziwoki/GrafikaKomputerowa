@@ -139,8 +139,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION(BlueprintCallable)
-	void ClearExitCollider(UObject* Object);
+	//UFUNCTION(BlueprintCallable)
+	//void ClearExitCollider(UObject* Object);
 
 	//void PlacePortal(bool Blue_Orange, FVector NewLocation, FRotator NewRotation);
 	//void CanPlacePortal(FVector Location, FRotator Rotation);

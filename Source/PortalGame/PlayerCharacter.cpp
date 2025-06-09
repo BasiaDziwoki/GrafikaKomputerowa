@@ -25,16 +25,16 @@ APlayerCharacter::APlayerCharacter()
 
 }
 
-void APlayerCharacter::JumpPortal(FVector Location)
-{
-	FVector Velocity = GetVelocity();
-	JumpVelocity = Velocity.Size();
-	ActorRotation = GetActorRotation();
-	SetActorLocationAndRotation(Location, ActorRotation);
-	FRotator NewRotation = ActorRotation * (1, 1, -1);
-	GetController()->SetControlRotation(NewRotation);
-	SetActorRotation(NewRotation);
-}
+//void APlayerCharacter::JumpPortal(FVector Location)
+//{
+//	FVector Velocity = GetVelocity();
+//	JumpVelocity = Velocity.Size();
+//	ActorRotation = GetActorRotation();
+//	SetActorLocationAndRotation(Location, ActorRotation);
+//	FRotator NewRotation = ActorRotation * (1, 1, -1);
+//	GetController()->SetControlRotation(NewRotation);
+//	SetActorRotation(NewRotation);
+//}
 
 // Called when the game starts or when spawned
 void APlayerCharacter::BeginPlay()

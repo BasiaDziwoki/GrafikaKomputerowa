@@ -78,13 +78,13 @@ void APortal::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void APortal::ClearExitCollider(UObject* Object)
-{
-	if (Object == ExitCollider)
-	{
-		ExitCollider=nullptr;
-	}
-}
+//void APortal::ClearExitCollider(UObject* Object)
+//{
+//	if (Object == ExitCollider)
+//	{
+//		ExitCollider=nullptr;
+//	}
+//}
 
 //void APortal::PlacePortal(bool Blue_Orange, FVector NewLocation, FRotator NewRotation)
 //{
@@ -95,7 +95,7 @@ void APortal::ClearExitCollider(UObject* Object)
 //{
 //	DummyPortal->SetWorldLocationAndRotation(Location, Rotation);
 //}
-
+//
 //void APortal::JumpPortalM(UObject* Jumper, UBoxComponent* ExitColliderR, USceneComponent* TargetCapture, UObject* TriggerCollider, FVector TargetPoint)
 //{
 //	if (TriggerCollider != ExitCollider)

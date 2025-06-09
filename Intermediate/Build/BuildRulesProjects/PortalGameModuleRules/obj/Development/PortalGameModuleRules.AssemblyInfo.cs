@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortalGameModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3abffc25586b82f1c6a1beaf23c144f13b8e2bae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1763141e880edb64c775d2844b33112c5fb988e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortalGameModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortalGameModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
