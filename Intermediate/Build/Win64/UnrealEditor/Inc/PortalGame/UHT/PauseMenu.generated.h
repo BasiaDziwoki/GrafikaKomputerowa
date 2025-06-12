@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PORTALGAME_PauseMenu_generated_h
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPauseMenu(); \
 	friend struct Z_Construct_UClass_UPauseMenu_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UPauseMenu)
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPauseMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UPauseMenu();
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h_12_PROLOG
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h_15_GENERATED_BODY \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h_12_PROLOG
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PORTALGAME_API UClass* StaticClass<class UPauseMenu>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PauseMenu_h
+#define CURRENT_FILE_ID FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PauseMenu_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

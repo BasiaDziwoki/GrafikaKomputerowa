@@ -1,12 +1,12 @@
-"C:\Users\bdziw\Desktop\Studia\Portal\Source\PortalGame\PortalGame.cpp"
-/FI"C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\PortalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/FI"C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\Definitions.PortalGame.h"
-/Yu"C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\PortalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/Fp"C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\PortalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
-/Fo"C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.cpp.obj"
-/experimental:log "C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.cpp.sarif"
-/sourceDependencies "C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.cpp.dep.json"
-@"C:\Users\bdziw\Desktop\Studia\Portal\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.Shared.rsp"
+"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Source\PortalGame\PortalGame.cpp"
+/FI"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\PortalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\Definitions.PortalGame.h"
+/Yu"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\PortalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\PortalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.cpp.obj"
+/experimental:log "C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.cpp.sarif"
+/sourceDependencies "C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.cpp.dep.json"
+@"C:\Users\bdziw\Desktop\Studia\GrafikaKomputerowa\GrafikaKomputerowa\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortalGame\PortalGame.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

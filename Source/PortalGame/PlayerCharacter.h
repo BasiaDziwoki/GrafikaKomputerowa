@@ -59,7 +59,7 @@ public:
 	void GrabPressed();
 	void GrabReleased();
 
-	void JumpPortal(FVector Location);
+	//void JumpPortal(FVector Location);
 
 
 	public:

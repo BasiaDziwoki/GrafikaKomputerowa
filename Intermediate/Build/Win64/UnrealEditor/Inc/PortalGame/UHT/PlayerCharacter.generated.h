@@ -17,8 +17,8 @@ class UPhysicsHandleComponent;
 #endif
 #define PORTALGAME_PlayerCharacter_generated_h
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_CALLBACK_WRAPPERS
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_CALLBACK_WRAPPERS
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
 	friend struct Z_Construct_UClass_APlayerCharacter_Statics; \
@@ -28,7 +28,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<APlayerCharacter*>(this); }
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	APlayerCharacter(APlayerCharacter&&); \
@@ -40,13 +40,13 @@ public: \
 	NO_API virtual ~APlayerCharacter();
 
 
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_14_PROLOG
-#define FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_GENERATED_BODY \
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_14_PROLOG
+#define FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_CALLBACK_WRAPPERS \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_CALLBACK_WRAPPERS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -54,7 +54,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PORTALGAME_API UClass* StaticClass<class APlayerCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_bdziw_Desktop_Studia_Portal_Source_PortalGame_PlayerCharacter_h
+#define CURRENT_FILE_ID FID_Users_bdziw_Desktop_Studia_GrafikaKomputerowa_GrafikaKomputerowa_Source_PortalGame_PlayerCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

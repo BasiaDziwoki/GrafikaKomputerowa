@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\pausemenu.cpp",
+        "Source": "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\source\\portalgame\\pausemenu.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\pausemenu.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\source\\portalgame\\pausemenu.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\umg\\public\\blueprint\\userwidget.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\umg\\public\\blueprint\\widgetchild.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widgetchild.generated.h",
@@ -39,7 +39,7 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\umg\\public\\animation\\widgetanimationevents.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widgetanimationevents.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\userwidget.generated.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\pausemenu.generated.h"
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\pausemenu.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

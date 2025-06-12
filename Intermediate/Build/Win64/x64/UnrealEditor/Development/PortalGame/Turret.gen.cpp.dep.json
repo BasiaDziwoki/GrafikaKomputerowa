@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\turret.gen.cpp",
+        "Source": "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\turret.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\x64\\portalgameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\source\\portalgame\\turret.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portalgame\\definitions.portalgame.h",
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\source\\portalgame\\turret.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
@@ -37,7 +37,7 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\plugins\\fx\\niagara\\intermediate\\build\\win64\\unrealeditor\\inc\\niagara\\uht\\niagaracomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\timelinecomponent.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\timelinecomponent.generated.h",
-            "c:\\users\\bdziw\\desktop\\studia\\portal\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\turret.generated.h"
+            "c:\\users\\bdziw\\desktop\\studia\\grafikakomputerowa\\grafikakomputerowa\\intermediate\\build\\win64\\unrealeditor\\inc\\portalgame\\uht\\turret.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
