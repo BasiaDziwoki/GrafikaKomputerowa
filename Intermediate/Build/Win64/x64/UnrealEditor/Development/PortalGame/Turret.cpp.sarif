@@ -10,13 +10,13 @@
                         "text": "'UNiagaraComponent::SetNiagaraVariableVec3': This method will be removed in a future release.  Please update to use the FName variant Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Users/bdziw/Desktop/Studia/Portal/Source/PortalGame/Turret.cpp"
+                        "uri": "file:///C:/Users/bdziw/Desktop/Studia/GrafikaKomputerowa/GrafikaKomputerowa/Source/PortalGame/Turret.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Users/bdziw/Desktop/Studia/Portal/Source/PortalGame/Turret.cpp"
+                                    "uri": "file:///C:/Users/bdziw/Desktop/Studia/GrafikaKomputerowa/GrafikaKomputerowa/Source/PortalGame/Turret.cpp"
                                 },
                                 "region": {
                                     "startLine": 59,
@@ -32,13 +32,13 @@
                         "text": "'UNiagaraComponent::SetNiagaraVariableVec3': This method will be removed in a future release.  Please update to use the FName variant Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Users/bdziw/Desktop/Studia/Portal/Source/PortalGame/Turret.cpp"
+                        "uri": "file:///C:/Users/bdziw/Desktop/Studia/GrafikaKomputerowa/GrafikaKomputerowa/Source/PortalGame/Turret.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Users/bdziw/Desktop/Studia/Portal/Source/PortalGame/Turret.cpp"
+                                    "uri": "file:///C:/Users/bdziw/Desktop/Studia/GrafikaKomputerowa/GrafikaKomputerowa/Source/PortalGame/Turret.cpp"
                                 },
                                 "region": {
                                     "startLine": 66,
