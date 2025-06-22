@@ -11,6 +11,8 @@
     <None Include="..\..\Source\PortalGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <None Include="..\..\buildlog.txt" />
     <Filter Include="Config">

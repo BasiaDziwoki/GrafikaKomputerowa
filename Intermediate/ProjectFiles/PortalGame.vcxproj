@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{23CE2FCE-DADB-33B7-8B0E-0E36205AFDEE}</ProjectGuid>
+    <ProjectGuid>{8224D9C2-3B4F-3E3D-8D41-D613AAED653A}</ProjectGuid>
     <RootNamespace>PortalGame</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
@@ -535,6 +535,8 @@
     <None Include="..\..\PortalGame.uproject"/>
     <None Include="..\..\Source\PortalGame.Target.cs"/>
     <None Include="..\..\Source\PortalGameEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\buildlog.txt"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
