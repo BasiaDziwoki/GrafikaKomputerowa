@@ -52,7 +52,7 @@ void ATurret::AnyDamage()
 void ATurret::ChangeLaserEndingLocation()
 {
 	FVector LocationStart = Cube->GetComponentLocation();
-	FVector LocationEnd = LocationStart * FVector(-20, 1, 1);
+	FVector LocationEnd = LocationStart + LocationStart * Cube->GetForwardVector() * 20;
 	FHitResult HitResult(ForceInit);
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, LocationStart, LocationEnd, ECC_Pawn))
 	{
