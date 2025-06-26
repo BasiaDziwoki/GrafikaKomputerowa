@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8224D9C2-3B4F-3E3D-8D41-D613AAED653A}|Intermediate\\ProjectFiles\\PortalGame.vcxproj|C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Turret.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8224D9C2-3B4F-3E3D-8D41-D613AAED653A}|Intermediate\\ProjectFiles\\PortalGame.vcxproj|solutionrelative:Source\\PortalGame\\Turret.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BC5B9D-9659-3538-87E4-3181E0123DFF}|Intermediate\\ProjectFiles\\UE5.vcxproj|C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Plugins\\FX\\Niagara\\Source\\Niagara\\Private\\NiagaraComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56BC5B9D-9659-3538-87E4-3181E0123DFF}|Intermediate\\ProjectFiles\\UE5.vcxproj|C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Public\\PrimitiveUniformShaderParametersBuilder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -83,11 +90,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NiagaraComponent.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Plugins\\FX\\Niagara\\Source\\Niagara\\Private\\NiagaraComponent.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Plugins\\FX\\Niagara\\Source\\Niagara\\Private\\NiagaraComponent.cpp",
+              "ToolTip": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Plugins\\FX\\Niagara\\Source\\Niagara\\Private\\NiagaraComponent.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Plugins\\FX\\Niagara\\Source\\Niagara\\Private\\NiagaraComponent.cpp",
+              "ViewState": "AgIAABcKAAAAAAAAAAAjwCsKAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T18:51:06.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Turret.cpp",
+              "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Turret.cpp",
+              "RelativeDocumentMoniker": "Source\\PortalGame\\Turret.cpp",
+              "ToolTip": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Turret.cpp",
+              "RelativeToolTip": "Source\\PortalGame\\Turret.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T18:47:25.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PrimitiveUniformShaderParametersBuilder.h",
               "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Public\\PrimitiveUniformShaderParametersBuilder.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Public\\PrimitiveUniformShaderParametersBuilder.h",
@@ -100,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "KismetMathLibrary.inl",
               "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Classes\\Kismet\\KismetMathLibrary.inl",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Classes\\Kismet\\KismetMathLibrary.inl",
@@ -108,12 +141,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Classes\\Kismet\\KismetMathLibrary.inl[Tylko do odczytu]",
               "ViewState": "AgIAANsFAAAAAAAAAAAiwO4FAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-25T11:55:01.378Z",
-              "EditorCaption": "[Tylko do odczytu]"
+              "WhenOpened": "2025-06-25T11:55:01.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Portal.h",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Portal.h",
               "RelativeDocumentMoniker": "Source\\PortalGame\\Portal.h",
@@ -121,12 +153,11 @@
               "RelativeToolTip": "Source\\PortalGame\\Portal.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-25T11:09:00.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T11:09:00.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Portal.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Portal.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\Portal.cpp",
@@ -134,12 +165,11 @@
               "RelativeToolTip": "Source\\PortalGame\\Portal.cpp",
               "ViewState": "AgIAADgAAAAAAAAAAAAYwF8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-25T11:08:37.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T11:08:37.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Turret.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Turret.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\Turret.cpp",
@@ -151,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "UserWidgetCross.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\UserWidgetCross.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\UserWidgetCross.cpp",
@@ -163,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "JumpPortalInterface.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\JumpPortalInterface.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\JumpPortalInterface.cpp",
@@ -175,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Portal.h",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Portal.h",
               "RelativeDocumentMoniker": "Source\\PortalGame\\Portal.h",
@@ -187,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Microsoft.MakeFile.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.MakeFile.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.MakeFile.targets",
@@ -195,12 +225,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.MakeFile.targets",
               "ViewState": "AgIAABUAAAAAAAAAAAAUwCsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-02T20:26:47.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T20:26:47.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PrimitiveComponent.cpp",
               "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Private\\Components\\PrimitiveComponent.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Private\\Components\\PrimitiveComponent.cpp",
@@ -212,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PortalGameModuleRules.csproj",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Intermediate\\Build\\BuildRulesProjects\\PortalGameModuleRules\\PortalGameModuleRules.csproj",
               "RelativeDocumentMoniker": "Intermediate\\Build\\BuildRulesProjects\\PortalGameModuleRules\\PortalGameModuleRules.csproj",
@@ -220,12 +249,11 @@
               "RelativeToolTip": "Intermediate\\Build\\BuildRulesProjects\\PortalGameModuleRules\\PortalGameModuleRules.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-12T12:04:23.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T12:04:23.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PlayerCharacter.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\PlayerCharacter.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\PlayerCharacter.cpp",
@@ -237,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Portal.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Portal.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\Portal.cpp",
@@ -249,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Cube.h",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\Cube.h",
               "RelativeDocumentMoniker": "Source\\PortalGame\\Cube.h",
@@ -261,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PlayerCharacter.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\PlayerCharacter.cpp",
               "RelativeDocumentMoniker": "Source\\PortalGame\\PlayerCharacter.cpp",
@@ -273,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PlayerCharacter.h",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Source\\PortalGame\\PlayerCharacter.h",
               "RelativeDocumentMoniker": "Source\\PortalGame\\PlayerCharacter.h",
@@ -285,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "SceneComponent.cpp",
               "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Private\\Components\\SceneComponent.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Private\\Components\\SceneComponent.cpp",
@@ -297,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "DoubleFloat.cpp",
               "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Core\\Private\\Math\\DoubleFloat.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Core\\Private\\Math\\DoubleFloat.cpp",
@@ -305,12 +333,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Core\\Private\\Math\\DoubleFloat.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-07T18:26:36.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T18:26:36.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "JumpPortalInterface.gen.cpp",
               "DocumentMoniker": "C:\\Users\\bdziw\\Desktop\\Studia\\GrafikaKomputerowa\\GrafikaKomputerowa\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\PortalGame\\UHT\\JumpPortalInterface.gen.cpp",
               "RelativeDocumentMoniker": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\PortalGame\\UHT\\JumpPortalInterface.gen.cpp",
@@ -322,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "SceneRelativeViewMatrices.cpp",
               "DocumentMoniker": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Private\\SceneRelativeViewMatrices.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Runtime\\Engine\\Private\\SceneRelativeViewMatrices.cpp",
